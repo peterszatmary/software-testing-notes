@@ -10,13 +10,13 @@
 
 ### As i see very important things regarding testing are ###
 
--   you would like to **write neither many nor not enough tests**. Balance is the key. Because to much tests costs time. And time means money. Not enough code leads to many bugs, production problems, unsatisfied customer that lead to more fixing less writing new code thatwhat cost also time and can lead to lossing the customer (worst scenario). 
+-   you would like to **write neither many nor not enough tests**. Balance is the key. Because to much tests costs time. And time means money. Not enough code leads to many bugs, production problems, unsatisfied customer that lead to more fixing less writing new code that what cost also time and can lead to lossing the customer (worst scenario). 
 
 -   you would like to **write tests that are working** !! You would like to have stronger tests than weak (weaker) tests. So question is, which testing strategies to choose and why? Because bad testing strategies could lead also to same results as many or not enough tests (result mentioned earlier).
 
 -   you would like **automate your tests** to run them periodically. 
 
--   you would like to **do so less manual tests than it is possible** because they are time consuming and cannot be repeated immediately / on demand. Each repetition consumes a lot of time in comparison with automated tests.
+-   you would like to **do minimum manual tests than is possible to do** because they are time consuming and cannot be repeated immediately / on demand. Each repetition consumes a lot of time in comparison with automated tests.
 
 ### Personal notes ###
 
@@ -32,34 +32,23 @@ There are so many test types. It is of course possible group different tests to 
 -   **Object of testing** - Functional testing, Non functional testing.
 -   **Knowledge of the system** - Black box testing, White box testing, Grey box testing.
 -   **Degree of automation** - Automated testing, Manual testing, Semi-automated testing.
--   **Degree of isolation components** - Component (Unit) testing, Integration testing, System / End to end testing.
+-   **Degree of isolation components** - Unit testing, Component testing, Integration testing, System testing, End to end testing.
 -   **Basis of positive scenario** - Positive testing, Negative testing.
--   **Time of testing** - Alpha testing, Beta testing, Acceptance testing.
+-   **Time of testing** - Alpha testing, Beta testing, Acceptance testing...
 -   **Degree of preparedness to be tested** - documentation testing, Ad hoc testing.
 -   **Functional testing** - Unit testing, Acceptance testing, White box testing ...
 -   **Non functional testing** - Security testing, Load testing, Stress testing, Penetration testing, Smoke testing ...
 
 
-### Testing tools / frameworks (Java) ###
+## Testing tools / frameworks (Java) ##
 
--   [Junit]() - white box testing, unit testing, component testing, functional testing.
--   [Cucumber]() - white box testing, black box testing, grey box testing, acceptance testing, BDD.
--   [REST Assured]() - white box testing, black box testing, grey box testing, acceptance testing.
--   [Serenity]() - UI Testing
--   [JGiven](http://jgiven.org) - BDD.
--   [Selenium](https://www.seleniumhq.org) UI testing.
--   [Postman](https://www.getpostman.com)
--   [PowerMock](https://github.com/powermock/powermock)
--   [Mockito](https://site.mockito.org) Functional Testing
--   [TestNG](https://testng.org/doc/index.html)
--   [Spock](http://spockframework.org)
--   [Spring Test]() - Functional testing
--   [DBUnit](http://dbunit.sourceforge.net)
--   [Apache JMeter]() - Functional testing, Non Functional testing
--   [Arquillian]() - Functional testing
--   [Gatling]() - Non functional testing
--   [ArchUnit](https://github.com/TNG/ArchUnit) - Non functional testing
--   [Java Microbenchmark Harness (JMH)](https://github.com/peterszatmary/jmh-benchmark-demo)
+### Acceptance testing ###
+
+-   [Cucumber]() - BDD
+-   [JGiven](http://jgiven.org) - BDD
+
+### Mutation testing ###
+
 -   [PIT](http://pitest.org) - Mutation Testing, Non functional testing, White box testing.
 -   [MuJava](https://cs.gmu.edu/~offutt/mujava/) - Mutation Testing, Non functional testing, White box testing.
 -   [JavaLanche](https://github.com/david-schuler/javalanche) - Mutation Testing, Non functional testing, White box testing.
@@ -68,12 +57,56 @@ There are so many test types. It is of course possible group different tests to 
 -   [Descartes](https://github.com/STAMP-project/pitest-descartes) - Mutation Testing, Non functional testing, White box testing.
 -   [Jester](http://jester.sourceforge.net) - Mutation Testing, Non functional testing, White box testing.
 -   [Judy](http://madeyski.e-informatyka.pl/tools/judy/) - Mutation Testing, Non functional testing, White box testing.
--   [Jacoco]() - Code coverage
--   [Cobertura]() - Code coverage
--   [Clover]() - Code coverage
+
+### Benchmark testing ###
+
+-   [Java Microbenchmark Harness (JMH)](https://github.com/peterszatmary/jmh-benchmark-demo)
+
+### Unit testing ###
+
+-   [Junit]() - white box testing, unit testing, component testing, functional testing.
+-   [ArchUnit](https://github.com/TNG/ArchUnit) - Non functional testing\
+-   [DBUnit](http://dbunit.sourceforge.net)
+
+### Code covarage tools ###
+
+-   [Jacoco]()
+-   [Cobertura]()
+-   [Clover]()
+
+### Load testing ###
+
+-   [Gatling]() - Non functional testing
+-   [Apache JMeter]() - Functional testing, Non Functional testing
+
+### Performance testing ###
+
+-   [Gatling]() - Non functional testing
+-   [Apache JMeter]() - Functional testing, Non Functional testing
+
+### UI testing ###
+
+-   [Serenity]() - UI Testing
+-   [Selenium](https://www.seleniumhq.org) UI testing.
 
 
-### Usefull links ###
+### Other ###
+
+-   [EasyMock](http://easymock.org)
+-   [REST Assured]() - white box testing, black box testing, grey box testing, acceptance testing.
+-   [Postman](https://www.getpostman.com)
+-   [PowerMock](https://github.com/powermock/powermock)
+-   [Mockito](https://site.mockito.org) Functional Testing
+-   [TestNG](https://testng.org/doc/index.html)
+-   [Spock](http://spockframework.org)
+-   [Spring Test]() - Functional testing
+-   [Arquillian]() - Functional testing
+
+
+
+
+
+## Usefull links ##
 
 -   [the-classification-of-kinds-of-software-testing](http://blog.qatestlab.com/2011/04/09/the-classification-of-kinds-of-software-testing/)
 -   [classification-among-testing](https://www.softwaretestinggenius.com/classification-among-testing/)
