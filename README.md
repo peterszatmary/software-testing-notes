@@ -80,7 +80,7 @@ There are so many test types. It is of course possible group different tests to 
 -   [the-classification-of-types-of-software-testing](https://www.utest.com/articles/the-classification-of-types-of-software-testing)
 -   [software-testing](https://www.guru99.com/software-testing.html)
 -   [types-of-software-testing](https://www.softwaretestinghelp.com/types-of-software-testing/) 
--   [types-of-software-testing](https://www.guru99.com/types-of-software-testing.html)
+-   [List of 100 Different Testing Types](https://www.guru99.com/types-of-software-testing.html)
 -   [Martin Fowler - Is TDD Dead](https://martinfowler.com/articles/is-tdd-dead/)
 -   [tdd-is-dead-long-live-testing](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
 
