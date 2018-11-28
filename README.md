@@ -25,13 +25,20 @@
 - **I am not really fan of TDD**, regardless if [it is dead](https://martinfowler.com/articles/is-tdd-dead/) [or not](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html). Just philosophical question here (I would like not spend so much time here with TDD so just one question) : Why start with something that is not a main product (test) instead of something that is major (software) ? 
 
 
-## Testing categories
+## Testing categories ##
 
 There are so many test types. It is of course possible group different tests to categories. To have better picture i start with categories first. 
 
-TODO
+-   **Object of testing** - Functional testing, Non functional testing.
+-   **Knowledge of the system** - Black box testing, White box testing, Grey box testing.
+-   **Degree of automation** - Automated testing, Manual testing, Semi-automated testing.
+-   **Degree of isolation components** - Component (Unit) testing, Integration testing, System / End to end testing.
+-   **Basis of positive scenario** - Positive testing, Negative testing.
+-   **Time of testing** - Alpha testing, Beta testing, Acceptance testing.
+-   **Degree of preparedness to be tested** - documentation testing, Ad hoc testing.
 
-### Testing tools / frameworks (Java)
+
+### Testing tools / frameworks (Java) ###
 
 -   [Junit]() - white box testing, unit testing, component testing, functional testing.
 -   [Cucumber]() - white box testing, black box testing, grey box testing, acceptance testing, BDD.
@@ -46,13 +53,15 @@ TODO
 -   [Spock](http://spockframework.org)
 -   [Spring Test]() - Functional testing
 -   [DBUnit](http://dbunit.sourceforge.net)
--   [Apache JMeter]() - Functional testing ,Non Functional testing
+-   [Apache JMeter]() - Functional testing, Non Functional testing
 -   [Arquillian]() - Functional testing
--   [Gatling]() - Non functional testing, Functional testing
+-   [Gatling]() - Non functional testing
+-   [ArchUnit](https://github.com/TNG/ArchUnit) - Non functional testing
+-   [Jacoco]() - Code coverage
+-   [Cobertura]() - Code coverage
+-   [Clover]() - Code coverage
 
-## 
-
-### Usefull links
+### Usefull links ###
 
 -   [the-classification-of-kinds-of-software-testing](http://blog.qatestlab.com/2011/04/09/the-classification-of-kinds-of-software-testing/)
 -   [classification-among-testing](https://www.softwaretestinggenius.com/classification-among-testing/)
