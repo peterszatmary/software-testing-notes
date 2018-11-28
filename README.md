@@ -60,7 +60,14 @@ There are so many test types. It is of course possible group different tests to 
 -   [Gatling]() - Non functional testing
 -   [ArchUnit](https://github.com/TNG/ArchUnit) - Non functional testing
 -   [Java Microbenchmark Harness (JMH)](https://github.com/peterszatmary/jmh-benchmark-demo)
--   [PIT](http://pitest.org) - Mutation Testing, Non functional testing, White box testing,
+-   [PIT](http://pitest.org) - Mutation Testing, Non functional testing, White box testing.
+-   [MuJava](https://cs.gmu.edu/~offutt/mujava/) - Mutation Testing, Non functional testing, White box testing.
+-   [JavaLanche](https://github.com/david-schuler/javalanche) - Mutation Testing, Non functional testing, White box testing.
+-   [Major](http://mutation-testing.org) - Mutation Testing, Non functional testing, White box testing.
+-   [Jumble](http://jumble.sourceforge.net) - Mutation Testing, Non functional testing, White box testing.
+-   [Descartes](https://github.com/STAMP-project/pitest-descartes) - Mutation Testing, Non functional testing, White box testing.
+-   [Jester](http://jester.sourceforge.net) - Mutation Testing, Non functional testing, White box testing.
+-   [Judy](http://madeyski.e-informatyka.pl/tools/judy/) - Mutation Testing, Non functional testing, White box testing.
 -   [Jacoco]() - Code coverage
 -   [Cobertura]() - Code coverage
 -   [Clover]() - Code coverage
