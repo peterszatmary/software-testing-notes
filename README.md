@@ -60,6 +60,7 @@ There are so many test types. It is of course possible group different tests to 
 -   [Gatling]() - Non functional testing
 -   [ArchUnit](https://github.com/TNG/ArchUnit) - Non functional testing
 -   [Java Microbenchmark Harness (JMH)](https://github.com/peterszatmary/jmh-benchmark-demo)
+-   [PIT](http://pitest.org) - Mutation Testing, Non functional testing, White box testing,
 -   [Jacoco]() - Code coverage
 -   [Cobertura]() - Code coverage
 -   [Clover]() - Code coverage
