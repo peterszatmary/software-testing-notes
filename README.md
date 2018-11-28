@@ -36,6 +36,8 @@ There are so many test types. It is of course possible group different tests to 
 -   **Basis of positive scenario** - Positive testing, Negative testing.
 -   **Time of testing** - Alpha testing, Beta testing, Acceptance testing.
 -   **Degree of preparedness to be tested** - documentation testing, Ad hoc testing.
+-   **Functional testing** - Unit testing, Acceptance testing, White box testing ...
+-   **Non functional testing** - Security testing, Load testing, Stress testing, Penetration testing, Smoke testing ...
 
 
 ### Testing tools / frameworks (Java) ###
@@ -48,7 +50,7 @@ There are so many test types. It is of course possible group different tests to 
 -   [Selenium](https://www.seleniumhq.org) UI testing.
 -   [Postman](https://www.getpostman.com)
 -   [PowerMock](https://github.com/powermock/powermock)
--   [Mockito](https://site.mockito.org)
+-   [Mockito](https://site.mockito.org) Functional Testing
 -   [TestNG](https://testng.org/doc/index.html)
 -   [Spock](http://spockframework.org)
 -   [Spring Test]() - Functional testing
@@ -57,9 +59,11 @@ There are so many test types. It is of course possible group different tests to 
 -   [Arquillian]() - Functional testing
 -   [Gatling]() - Non functional testing
 -   [ArchUnit](https://github.com/TNG/ArchUnit) - Non functional testing
+-   [Java Microbenchmark Harness (JMH)](https://github.com/peterszatmary/jmh-benchmark-demo)
 -   [Jacoco]() - Code coverage
 -   [Cobertura]() - Code coverage
 -   [Clover]() - Code coverage
+
 
 ### Usefull links ###
 
