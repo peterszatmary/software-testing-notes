@@ -128,7 +128,6 @@ Method of software testing which involves modifying programs' source code or byt
 
 -   [EasyMock](http://easymock.org)
 -   [REST Assured]()
-
 -   [PowerMock](https://github.com/powermock/powermock)
 -   [Mockito](https://site.mockito.org)
 -   [TestNG](https://testng.org/doc/index.html)
