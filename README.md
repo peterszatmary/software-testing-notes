@@ -44,8 +44,27 @@ There are so many test types. It is of course possible group different tests to 
 
 ### Acceptance testing ###
 
--   [Cucumber]() - BDD
+Formal testing conducted to determine whether or not a system satisfies its acceptance criteria and to enable the customer to determine whether or not to accept the system. It is usually performed by the customer.[More info](https://www.guru99.com/user-acceptance-testing.html)
+
+-   [Cucumber](https://cucumber.io) - BDD
 -   [JGiven](http://jgiven.org) - BDD
+-   [YatSpec](https://github.com/bodar/yatspec) - BDD
+-   [Concordion](https://concordion.org)
+-   [FitNesse](http://www.fitnesse.org)
+
+### Accessibility Testing ###
+
+Type of testing which determines the usability of a product to the people having disabilities (deaf, blind, mentally disabled etc). The evaluation process is conducted by persons having disabilities. [More info](https://www.guru99.com/accessibility-testing.html)
+
+-   [Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
+-   [AChecker](https://achecker.ca/checker/index.php)
+-   [Wave](http://wave.webaim.org)
+-   [TAW](https://www.tawdis.net)
+-   [Accessibility Valet](http://valet.webthing.com/access/url.html)
+-   [Quick Accessibility Page Tester](https://accessify.com/tools-and-wizards/accessibility-tools/favelets/quick-page-test/)
+-   [aDesigner](http://www.eclipse.org/actf/downloads/tools/aDesigner/)
+-   [Accessify](https://accessify.com/tools-and-wizards/accessibility-tools/favelets/quick-page-test/)
+-   [Accessify](https://accessify.com/tools-and-wizards/accessibility-tools/favelets/quick-page-test/)
 
 ### Mutation testing ###
 
@@ -61,6 +80,7 @@ There are so many test types. It is of course possible group different tests to 
 ### Benchmark testing ###
 
 -   [Java Microbenchmark Harness (JMH)](https://github.com/peterszatmary/jmh-benchmark-demo)
+-   [Benchmark Framework 2.0 & TechEmpower](https://www.techempower.com/benchmarks/)
 
 ### Unit testing ###
 
@@ -89,6 +109,10 @@ There are so many test types. It is of course possible group different tests to 
 -   [Serenity]()
 -   [Selenium](https://www.seleniumhq.org)
 
+### End to end testing ###
+
+-   [Endly](https://github.com/viant/endly/)
+
 ### Other ###
 
 -   [EasyMock](http://easymock.org)
@@ -100,6 +124,8 @@ There are so many test types. It is of course possible group different tests to 
 -   [Spock](http://spockframework.org)
 -   [Spring Test]() - Functional testing
 -   [Arquillian]() - Functional testing
+-   [Fit](http://fit.c2.com)
+
 
 ## Usefull links ##
 
