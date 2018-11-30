@@ -95,8 +95,8 @@ Method of software testing which involves modifying programs' source code or byt
 
 ### Unit testing ###
 
--   [Junit]() - white box testing, unit testing, component testing, functional testing.
--   [ArchUnit](https://github.com/TNG/ArchUnit) - Non functional testing
+-   [Junit]()
+-   [ArchUnit](https://github.com/TNG/ArchUnit)
 -   [DBUnit](http://dbunit.sourceforge.net)
 
 ### Code covarage tools ###
@@ -107,13 +107,13 @@ Method of software testing which involves modifying programs' source code or byt
 
 ### Load testing ###
 
--   [Gatling]() - Non functional testing
--   [Apache JMeter]() - Functional testing, Non Functional testing
+-   [Gatling]()
+-   [Apache JMeter]()
 
 ### Performance testing ###
 
--   [Gatling]() - Non functional testing
--   [Apache JMeter]() - Functional testing, Non Functional testing
+-   [Gatling]()
+-   [Apache JMeter]()
 
 ### UI testing ###
 
@@ -127,14 +127,14 @@ Method of software testing which involves modifying programs' source code or byt
 ### Other ###
 
 -   [EasyMock](http://easymock.org)
--   [REST Assured]() - white box testing, black box testing, grey box testing, acceptance testing.
+-   [REST Assured]()
 
 -   [PowerMock](https://github.com/powermock/powermock)
--   [Mockito](https://site.mockito.org) Functional Testing
+-   [Mockito](https://site.mockito.org)
 -   [TestNG](https://testng.org/doc/index.html)
 -   [Spock](http://spockframework.org)
--   [Spring Test]() - Functional testing
--   [Arquillian]() - Functional testing
+-   [Spring Test]()
+-   [Arquillian]()
 -   [Fit](http://fit.c2.com)
 
 
