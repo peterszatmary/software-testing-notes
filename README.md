@@ -42,7 +42,7 @@ There are so many test types. It is of course possible group different tests to 
 
 ## Testing tools / frameworks (Java) ##
 
-In this section there are are all testing strategies listed which have tools / frameworks / libraries for performing it. For example you can do Acceptance testing with Cucumber so it is on list. But on other side [Ad Hoc testing](https://www.guru99.com/adhoc-testing.html) as far as i know has no tool/framework for it so you can use whatever make sense to you. Here it is important that Ad hoc is performed without big planning to have quick tests done. No matter of tools. Thats why it is not on the list.
+In this section there are are all testing types listed which have tools / frameworks / libraries for performing it. For example you can do [Acceptance testing](https://www.guru99.com/user-acceptance-testing.html) with [Cucumber](https://cucumber.io) so it is on list. But on other side for example [Ad Hoc testing](https://www.guru99.com/adhoc-testing.html) as far as i know has no tool / framework for it so you can use whatever make sense to you. Here it is important that Ad hoc what is Ad hoc not the tool. No tool is definitelly wired to that type of test. Thats why it is not on the list. 
 
 ### Acceptance testing ###
 
