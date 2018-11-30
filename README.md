@@ -66,6 +66,15 @@ Type of testing which determines the usability of a product to the people having
 -   [Quick Accessibility Page Tester](https://accessify.com/tools-and-wizards/accessibility-tools/favelets/quick-page-test/)
 -   [aDesigner](http://www.eclipse.org/actf/downloads/tools/aDesigner/)
 
+### API Testing ###
+
+Testing technique similar to Unit Testing in that it targets the code level. Api Testing differs from Unit Testing in that it is typically a QA task and not a developer task. [More info](https://www.guru99.com/api-testing.html)
+
+-   [Postman with Newman](https://www.getpostman.com)
+-   [SOAP UI](https://www.soapui.org)
+-   [Curl](https://curl.haxx.se)
+
+
 ### Mutation testing ###
 
 Method of software testing which involves modifying programs' source code or byte code in small ways in order to test sections of the code that are seldom or never accessed during normal tests execution. It is normally conducted by testers. [More info](https://www.guru99.com/mutation-testing.html).
@@ -119,7 +128,7 @@ Method of software testing which involves modifying programs' source code or byt
 
 -   [EasyMock](http://easymock.org)
 -   [REST Assured]() - white box testing, black box testing, grey box testing, acceptance testing.
--   [Postman](https://www.getpostman.com)
+
 -   [PowerMock](https://github.com/powermock/powermock)
 -   [Mockito](https://site.mockito.org) Functional Testing
 -   [TestNG](https://testng.org/doc/index.html)
