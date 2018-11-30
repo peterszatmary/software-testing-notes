@@ -63,8 +63,6 @@ Type of testing which determines the usability of a product to the people having
 -   [Accessibility Valet](http://valet.webthing.com/access/url.html)
 -   [Quick Accessibility Page Tester](https://accessify.com/tools-and-wizards/accessibility-tools/favelets/quick-page-test/)
 -   [aDesigner](http://www.eclipse.org/actf/downloads/tools/aDesigner/)
--   [Accessify](https://accessify.com/tools-and-wizards/accessibility-tools/favelets/quick-page-test/)
--   [Accessify](https://accessify.com/tools-and-wizards/accessibility-tools/favelets/quick-page-test/)
 
 ### Mutation testing ###
 
