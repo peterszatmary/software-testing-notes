@@ -79,14 +79,14 @@ Testing technique similar to Unit Testing in that it targets the code level. Api
 
 Method of software testing which involves modifying programs' source code or byte code in small ways in order to test sections of the code that are seldom or never accessed during normal tests execution. It is normally conducted by testers. [More info](https://www.guru99.com/mutation-testing.html).
 
--   [PIT](http://pitest.org) - Non functional testing, White box testing.
--   [MuJava](https://cs.gmu.edu/~offutt/mujava/) - Non functional testing, White box testing.
--   [JavaLanche](https://github.com/david-schuler/javalanche) - Non functional testing, White box testing.
--   [Major](http://mutation-testing.org) - Non functional testing, White box testing.
--   [Jumble](http://jumble.sourceforge.net) - Non functional testing, White box testing.
--   [Descartes](https://github.com/STAMP-project/pitest-descartes) - Non functional testing, White box testing.
--   [Jester](http://jester.sourceforge.net) - Non functional testing, White box testing.
--   [Judy](http://madeyski.e-informatyka.pl/tools/judy/) - Non functional testing, White box testing.
+-   [PIT](http://pitest.org)
+-   [MuJava](https://cs.gmu.edu/~offutt/mujava/)
+-   [JavaLanche](https://github.com/david-schuler/javalanche)
+-   [Major](http://mutation-testing.org)
+-   [Jumble](http://jumble.sourceforge.net)
+-   [Descartes](https://github.com/STAMP-project/pitest-descartes)
+-   [Jester](http://jester.sourceforge.net)
+-   [Judy](http://madeyski.e-informatyka.pl/tools/judy/)
 
 ### Benchmark testing ###
 
