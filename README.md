@@ -66,6 +66,8 @@ Type of testing which determines the usability of a product to the people having
 
 ### Mutation testing ###
 
+Method of software testing which involves modifying programs' source code or byte code in small ways in order to test sections of the code that are seldom or never accessed during normal tests execution. It is normally conducted by testers. [More info](https://www.guru99.com/mutation-testing.html).
+
 -   [PIT](http://pitest.org) - Non functional testing, White box testing.
 -   [MuJava](https://cs.gmu.edu/~offutt/mujava/) - Non functional testing, White box testing.
 -   [JavaLanche](https://github.com/david-schuler/javalanche) - Non functional testing, White box testing.
