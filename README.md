@@ -8,7 +8,7 @@
 -   prevent software from bugs or find bugs asap
 -   tests helps a lot with big changes in code as refactoring, migrations etc.
 
-### As i see very important things regarding testing are ###
+### Important things regarding testing ###
 
 -   you would like to **write neither many nor not enough tests**. Balance is the key. Because to much tests costs time. And time means money. Not enough tests leads to many bugs, production problems, unsatisfied customer that lead to more fixing less writing new code / features that will cost also time and could lead to lossing the customer (the worst scenario). 
 
