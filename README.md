@@ -10,7 +10,7 @@
 
 ### As i see very important things regarding testing are ###
 
--   you would like to **write neither many nor not enough tests**. Balance is the key. Because to much tests costs time. And time means money. Not enough code leads to many bugs, production problems, unsatisfied customer that lead to more fixing less writing new code that what cost also time and can lead to lossing the customer (worst scenario). 
+-   you would like to **write neither many nor not enough tests**. Balance is the key. Because to much tests costs time. And time means money. Not enough tests leads to many bugs, production problems, unsatisfied customer that lead to more fixing less writing new code / features that will cost also time and could lead to lossing the customer (the worst scenario). 
 
 -   you would like to **write tests that are working** !! You would like to have stronger tests than weak (weaker) tests. So question is, which testing strategies to choose and why? Because bad testing strategies could lead also to same results as many or not enough tests (result mentioned earlier).
 
