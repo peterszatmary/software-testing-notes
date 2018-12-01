@@ -23,6 +23,7 @@
 -   I believe in **multi-layered testing strategy**. That means you are using more than one type of tests to achieve the main goal - to have software properly tested. 
 -   I dont believe in **hunting bigger code coverage percentage number** ! Why bigger number if your tests are weak or wrong ? First think about things like is my test correct ? Is it my test doing what i think ? It is my test testing properly ? Is it my test working just with correct inputs or also with wrong ones ?
 - **I am not really fan of TDD**, regardless if [it is dead](https://martinfowler.com/articles/is-tdd-dead/) [or not](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html). Just philosophical question here (I would like not spend so much time here with TDD so just one question) : Why start with something that is not a main product (test) instead of something that is major (software) ? 
+-  In the very beggining it is crutial to **choose right testing strategies**. Your software has some nature and / or characteristic. Use it to choose correct testing strategy.
 
 
 ## Testing categories ##
