@@ -12,7 +12,7 @@
 
 -   you would like to **write neither many nor not enough tests**. Balance is the key. Because to much tests costs time. And time means money. Not enough tests leads to many bugs, production problems, unsatisfied customer that lead to more fixing less writing new code / features that will cost also time and could lead to lossing the customer (the worst scenario). 
 
--   you would like to **write tests that are working** !! You would like to have stronger tests than weak (weaker) tests. So question is, which testing strategies to choose and why? Because bad testing strategies could lead also to same results as many or not enough tests (result mentioned earlier).
+-   you would like to **write tests that are working** !! You would like to have stronger (with bigger test coverage) tests than weak (with lower test coverage) tests. So question is, which testing strategies to choose and why? Because bad testing strategies could lead also to same results as many or not enough tests (result mentioned earlier).
 
 -   you would like **automate your tests** to run them periodically. 
 
@@ -23,8 +23,8 @@
 ### Personal notes ###
 
 -   I believe in **multi-layered testing strategy**. That means you are using more than one type of tests to achieve the main goal - to have software properly tested. 
--   I dont believe in **hunting bigger code coverage percentage number** ! Why bigger number if your tests are weak or wrong ? First think about things like is my test correct ? Is it my test doing what i think ? It is my test testing properly ? Is it my test working just with correct inputs or also with wrong ones ?
-- **I am not really fan of TDD**, regardless if [it is dead](https://martinfowler.com/articles/is-tdd-dead/) [or not](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html). Just philosophical question here (I would like not spend so much time here with TDD so just one question) : Why start with something that is not a main product (test) instead of something that is major (software) ? 
+-   I dont believe in **hunting bigger code coverage percentage number** ! Why bigger number if your tests are weak or wrong ? Or you are testing just units and these tests doesnt say anything about how the hell the code works together ? (you have just junit tests and nothing else). First think about things like is my test doing what i think ? Have i big coverage number but i dont have automated higher level tests for testing dependencies and see if modules are working together ?  
+- **I am not really fan of TDD**, regardless if [it is dead](https://martinfowler.com/articles/is-tdd-dead/) [or not](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html). Just philosophical question here (I would like not spend so much time here with TDD so just one question) : Why start with something that is not a main product (test) instead of something that is major (software) ? Why spend so much time with tests. I would like to spend as little time with writing test as possible !
 
 
 ## Testing categories ##
@@ -80,8 +80,35 @@ Testing technique similar to Unit Testing in that it targets the code level. Api
 
 Combinatorial testing method that tests all possible discrete combinations of input parameters. It is performed by the testing teams. It is a Black box testing method. [More info](https://www.softwaretestinghelp.com/what-is-pairwise-testing/) and [even more info](http://www.pairwise.org).
 
+-   [QuickTheories](https://github.com/ncredinburgh/QuickTheories)
+-   [junit-quickcheck](http://pholser.github.io/junit-quickcheck/site/0.8.1/)
+-   [QuickCheck (Java)](https://bitbucket.org/blob79/quickcheck/src/default/)
+-   [jqwik](https://jqwik.net)
 -   [All Pairs](http://www.satisfice.com/tools.shtml)
 -   [More tools](http://www.pairwise.org/tools.asp)
+
+### Statement Testing ###
+
+is a structural testing strategy that uses the program’s control flow as a model. 100% statement coverage. Execute all statements in a program at least once under some test. Control flow path contains statements linked together with links. Links link together statements. Statement is basic (simple) executable code. Related topic please see [Statement coverage](https://www.guru99.com/code-coverage.html#4)
+
+**Related** : Statement Testing <= Branch Testing <= Path Testing.
+
+
+### Branch Testing ###
+
+is a structural testing strategy that uses the program’s control flow as a model. 100% branch coverage. Execute all branches in a program at least once under some test. Control flow path contains statements linked together with links. If between 2 statements exists more than 1 link all these are named branches and are executed also with original link (original link is special branch lets say but still branch). Related topic please see [Branch coverage](https://www.guru99.com/code-coverage.html#6)
+
+**Related** : Statement Testing <= Branch Testing <= Path Testing.
+
+### Path Testing ###
+
+is a structural testing strategy that uses the program’s control flow as a model. 100% Path coverage. Execute all possible control flow paths through the program. Control flow path contains statements linked together with links.
+
+**Related** : Statement Testing <= Branch Testing <= Path Testing.
+
+**More info**
+
+-   [1](https://www.guru99.com/basis-path-testing.html), [2](https://ifs.host.cs.st-andrews.ac.uk/Books/SE9/Web/Testing/PathTest.html), [3](https://www.cs.drexel.edu/~jhk39/teaching/cs576su06/L4.pdf)
 
 ### Mutation testing ###
 
@@ -109,9 +136,25 @@ Method of software testing which involves modifying programs' source code or byt
 
 ### Code covarage tools ###
 
--   [Jacoco]()
--   [Cobertura]()
--   [Clover]()
+[Code coverage theory](https://www.guru99.com/code-coverage.html).
+
+**Watch out** : [Test Coverage is not a code coverage](https://www.sealights.io/test-metrics/code-coverage-vs-test-coverage-pros-and-cons/)
+
+-   [Jacoco](https://github.com/jacoco/jacoco)
+-   [Cobertura](http://cobertura.github.io/cobertura/)
+-   [Clover](https://bitbucket.org/atlassian/clover/src/default/)
+-   [EclEmma](https://www.eclemma.org)
+
+### Test Coverage ###
+
+Simplified, it measures test quality or test strength. In other words it measures how much of code has one test executed in real. [More info](https://www.guru99.com/test-coverage-in-software-testing.html)
+
+**Watch out** : [Test Coverage is not a code coverage](https://www.sealights.io/test-metrics/code-coverage-vs-test-coverage-pros-and-cons/)
+
+-   [Java Test Coverage Tool](http://www.semdesigns.com/Products/TestCoverage/JavaTestCoverage.html?Home=TestCoverage)
+-   [EclEmma](https://www.eclemma.org)
+
+
 
 ### Load testing ###
 
