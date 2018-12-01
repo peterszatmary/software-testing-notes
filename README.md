@@ -136,6 +136,9 @@ Method of software testing which involves modifying programs' source code or byt
 -   [Arquillian]()
 -   [Fit](http://fit.c2.com)
 
+## Not mentioned testing types ##
+
+TODO
 
 ## Usefull links ##
 
