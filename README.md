@@ -134,28 +134,6 @@ Method of software testing which involves modifying programs' source code or byt
 -   [ArchUnit](https://github.com/TNG/ArchUnit)
 -   [DBUnit](http://dbunit.sourceforge.net)
 
-### Code covarage tools ###
-
-[Code coverage theory](https://www.guru99.com/code-coverage.html).
-
-**Watch out** : [Test Coverage is not a code coverage](https://www.sealights.io/test-metrics/code-coverage-vs-test-coverage-pros-and-cons/)
-
--   [Jacoco](https://github.com/jacoco/jacoco)
--   [Cobertura](http://cobertura.github.io/cobertura/)
--   [Clover](https://bitbucket.org/atlassian/clover/src/default/)
--   [EclEmma](https://www.eclemma.org)
-
-### Test Coverage ###
-
-Simplified, it measures test quality or test strength. In other words it measures how much of code has one test executed in real. [More info](https://www.guru99.com/test-coverage-in-software-testing.html)
-
-**Watch out** : [Test Coverage is not a code coverage](https://www.sealights.io/test-metrics/code-coverage-vs-test-coverage-pros-and-cons/)
-
--   [Java Test Coverage Tool](http://www.semdesigns.com/Products/TestCoverage/JavaTestCoverage.html?Home=TestCoverage)
--   [EclEmma](https://www.eclemma.org)
-
-
-
 ### Load testing ###
 
 -   [Gatling]()
@@ -186,6 +164,26 @@ Simplified, it measures test quality or test strength. In other words it measure
 -   [Spring Test]()
 -   [Arquillian]()
 -   [Fit](http://fit.c2.com)
+
+### Code covarage tools ###
+
+[Code coverage theory](https://www.guru99.com/code-coverage.html).
+
+**Watch out** : [Test Coverage is not a code coverage](https://www.sealights.io/test-metrics/code-coverage-vs-test-coverage-pros-and-cons/)
+
+-   [Jacoco](https://github.com/jacoco/jacoco)
+-   [Cobertura](http://cobertura.github.io/cobertura/)
+-   [Clover](https://bitbucket.org/atlassian/clover/src/default/)
+-   [EclEmma](https://www.eclemma.org)
+
+### Test Coverage ###
+
+Simplified, it measures test quality or test strength. In other words it measures how much of code has one test executed in real. [More info](https://www.guru99.com/test-coverage-in-software-testing.html)
+
+**Watch out** : [Test Coverage is not a code coverage](https://www.sealights.io/test-metrics/code-coverage-vs-test-coverage-pros-and-cons/)
+
+-   [Java Test Coverage Tool](http://www.semdesigns.com/Products/TestCoverage/JavaTestCoverage.html?Home=TestCoverage)
+-   [EclEmma](https://www.eclemma.org)
 
 ## Not mentioned testing types ##
 
