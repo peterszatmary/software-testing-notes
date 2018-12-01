@@ -76,6 +76,12 @@ Testing technique similar to Unit Testing in that it targets the code level. Api
 -   [SOAP UI](https://www.soapui.org)
 -   [Curl](https://curl.haxx.se)
 
+### All-pairs Testing / Pairwise Testing ###
+
+Combinatorial testing method that tests all possible discrete combinations of input parameters. It is performed by the testing teams. It is a Black box testing method. [More info](https://www.softwaretestinghelp.com/what-is-pairwise-testing/) and [even more info](http://www.pairwise.org).
+
+-   [All Pairs](http://www.satisfice.com/tools.shtml)
+-   [More tools](http://www.pairwise.org/tools.asp)
 
 ### Mutation testing ###
 
@@ -140,7 +146,7 @@ Method of software testing which involves modifying programs' source code or byt
 
 ## Not mentioned testing types ##
 
-TODO
+- Active Testing, Agile Testing, Age Testing, Ad-hoc Testing:, Automation Testing, Alpha Testing, Assertion Testing, 
 
 ## Usefull links ##
 
