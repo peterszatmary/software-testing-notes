@@ -38,6 +38,7 @@ There are so many test types. It is of course possible group different tests to 
 -   **Basis of positive scenario** - Positive testing, Negative testing.
 -   **Time of testing** - Alpha testing, Beta testing, Acceptance testing...
 -   **Degree of preparedness to be tested** - documentation testing, Ad hoc testing.
+-   **Who is executing the tests** - developer, testing tesm, QA team, end user ...
 -   **Functional testing** - Unit testing, Acceptance testing, White box testing ...
 -   **Non functional testing** - Security testing, Load testing, Stress testing, Penetration testing, Smoke testing ...
 
@@ -93,6 +94,9 @@ is a structural testing strategy that uses the program’s control flow as a mod
 
 **Related** : Statement Testing <= Branch Testing <= Path Testing.
 
+### Basis Path Testing ###
+
+A testing mechanism which derives a logical complexity measure of a procedural design and use this as a guide for defining a basic set of execution paths. Basis path testing involves execution of all possible blocks in a program and achieves maximum path coverage with least number of test cases. It is a hybrid of branch testing and path testing methods. [More info](https://www.guru99.com/basis-path-testing.html)
 
 ### Branch Testing ###
 
@@ -102,7 +106,7 @@ is a structural testing strategy that uses the program’s control flow as a mod
 
 ### Path Testing ###
 
-is a structural testing strategy that uses the program’s control flow as a model. 100% Path coverage. Execute all possible control flow paths through the program. Control flow path contains statements linked together with links.
+is structural testing method that involves using the source code of a program in order to find every possible executable path. 100% Path coverage. Execute all possible control flow paths through the program. Control flow path contains statements linked together with links.
 
 **Related** : Statement Testing <= Branch Testing <= Path Testing.
 
@@ -187,7 +191,7 @@ Simplified, it measures test quality or test strength. In other words it measure
 
 ## Not mentioned testing types ##
 
-- Active Testing, Agile Testing, Age Testing, Ad-hoc Testing:, Automation Testing, Alpha Testing, Assertion Testing, 
+- Active Testing, Agile Testing, Age Testing, Ad-hoc Testing:, Automation Testing, Alpha Testing, Assertion Testing, Beta Testing,
 
 ## Usefull links ##
 
