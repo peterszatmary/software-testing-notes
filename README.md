@@ -140,13 +140,19 @@ Method of software testing which involves modifying programs' source code or byt
 
 ### Load testing ###
 
--   [Gatling]()
--   [Apache JMeter]()
+-   [Gatling](https://gatling.io)
+-   [Apache JMeter](https://jmeter.apache.org)
 
 ### Performance testing ###
 
--   [Gatling]()
--   [Apache JMeter]()
+-   [Gatling](https://gatling.io)
+-   [Apache JMeter](https://jmeter.apache.org)
+
+### Endurance Testing ### 
+-   Type of testing which checks for memory leaks or other problems that may occur with prolonged execution. It is usually performed by performance engineers.
+
+-   [Apache JMeter](https://jmeter.apache.org)
+-   [Gatling](https://gatling.io)
 
 ### UI testing ###
 
